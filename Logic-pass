@@ -1,0 +1,30 @@
+#Q1
+
+Import re
+dif remove_char(char,string):
+if char in string:
+Text = re.sub (r'{}'.format(cahr),' ', string)
+return text
+remove_char('d','mohamed')
+
+#Q2
+
+Lower = 1
+Upper= 100
+print("prime number between", lower, "and" , upper , "are:")
+for num in rang(lower,upper +1):
+if num > 1:
+for i in range(2, num):
+if (num % i) ==0:
+break
+eals:
+Print(num)
+
+#Q3
+
+form collection import defaultdict
+Sentence = 'abd alrashed'
+Counter = defaultdict(int)
+for c in sentence:
+counter[c] += 1
+counter
